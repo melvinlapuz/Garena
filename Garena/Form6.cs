@@ -24,7 +24,7 @@ namespace Garena
             if (shellamount >= gameamount)
             {
                 MessageBox.Show("Purchase Successfully!");
-                shellamount = shellamount - gameamount;
+                shellamount = shellamount -= gameamount;
                 var jsonfile = File.ReadAllText("Users.json");
                 user = JsonConvert.DeserializeObject<List<dynamic>>(jsonfile);
 

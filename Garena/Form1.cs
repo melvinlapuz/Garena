@@ -99,5 +99,23 @@ namespace Garena
 
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CustomCheckBox1_Click(object sender, EventArgs e)
+        {
+            if(txtpassword.PasswordChar == '●')
+            {
+                txtpassword.PasswordChar = '\0';
+            }
+            else
+            {
+                txtpassword.PasswordChar = '●';
+
+
+            }
+        }
     }
 }

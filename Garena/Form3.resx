@@ -121,7 +121,7 @@
   <data name="panel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABkAAAARfCAYAAABEEy/AAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAAbThJREFUeF7s3Wu7bmlelvfxDrq7uqq7qquqm6qu7sYjAYMRURRiQHETxWgSjFsQ
+        vQAADr0BR/uQrQAAbThJREFUeF7s3Wu7bmlelvfxDrq7uqq7qquqm6qu7sYjAYMRURRiQHETxWgSjFsQ
         UAREEDco0ai4QUHc4SYqUQKiCMnHnBnjHuOaczxzXc9ar6yucfN7cdY5z/+1ur/AfYw5l//3Kz728P+d
         0FprrbXWWmuttdZaa621vnov5wAAAAAAAAAAAJiBxy9AmJmZmZmZmZmZmZmZZ/HtFyBf+fGnn7XWWmut
         tdZaa6211lprrS/a4wsQAAAAAAAAAACAmfArsJiZmZmZmZmZmZmZeTr7AgQAAAAAAAAAAEzH/gDylR8f
@@ -593,10 +593,13 @@
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>62</value>
+  </metadata>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABkAAAARfCAYAAABEEy/AAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAAbThJREFUeF7s3Wu7bmlelvfxDrq7uqq7qquqm6qu7sYjAYMRURRiQHETxWgSjFsQ
+        vgAADr4B6kKxwAAAbThJREFUeF7s3Wu7bmlelvfxDrq7uqq7qquqm6qu7sYjAYMRURRiQHETxWgSjFsQ
         UAREEDco0ai4QUHc4SYqUQKiCMnHnBnjHuOaczxzXc9ar6yucfN7cdY5z/+1ur/AfYw5l//3Kz728P+d
         0FprrbXWWmuttdZaa621vnov5wAAAAAAAAAAAJiBxy9AmJmZmZmZmZmZmZmZZ/HtFyBf+fGnn7XWWmut
         tdZaa6211lprrS/a4wsQAAAAAAAAAACAmfArsJiZmZmZmZmZmZmZeTr7AgQAAAAAAAAAAEzH/gDylR8f

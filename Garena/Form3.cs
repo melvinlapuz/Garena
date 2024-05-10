@@ -14,6 +14,7 @@ namespace Garena
     public partial class Form3 : Form
     {
        
+       
         public Form3()
         {
             InitializeComponent();
@@ -28,19 +29,29 @@ namespace Garena
                 Form4 form4 = new Form4();
                 this.Hide();
                 form4.Show();
-
             }
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
+            
             Application.Exit();
             timer1.Stop();
         }
 
         private void Form3_Load(object sender, EventArgs e)
         {
+            timer1.Start();
+        }
 
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

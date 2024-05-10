@@ -17,6 +17,7 @@ namespace Garena
     {
         string email = Form1.email;
         List<dynamic> UserInfo = Form2.UserInfo;
+
         public Form4()
         {
             InitializeComponent();
@@ -35,8 +36,8 @@ namespace Garena
 
             foreach (var Item in UserInfo)
             {
-                string username = Item["Email"];
-                if (email == username)
+                string email1 = Item["Email"];
+                if (email == email1)
                 {
                     label1.Text = Item["UserName"];
                     label5.Text = Item["Shell"];
@@ -55,16 +56,6 @@ namespace Garena
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-           
-        }
-
         private async void guna2Button3_Click(object sender, EventArgs e)
         {
             var th = Task.Delay(1500);
@@ -72,11 +63,8 @@ namespace Garena
             Form5 form5 = new Form5();
             this.Hide();
             form5.Show();
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
+           
+            
         }
 
         private async void guna2Button4_Click(object sender, EventArgs e)
@@ -95,6 +83,19 @@ namespace Garena
             Form7 form7 = new Form7();
             this.Hide();
             form7.Show();
+        }
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
